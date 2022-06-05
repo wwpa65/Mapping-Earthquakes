@@ -18,7 +18,30 @@ We have developed JavaScript code to to visually show the differences between th
 
 Earthquakes, techtonic plates, and major earthquakes were added as layers into the base map, which has three different views (street, satellite, and dark views). Thews views can be selected as needed. A legend with colors is visible to show the magnitude of the earthquakes.  
 
-![Earthquake-Street](/static/images/earthquake-street.png)
+![Earthquake-Street](Earthquake_Challenge/static/images/earthquake-street.png)
+
+**Figure 1.** Streepmap View of Earthquakes around the world
+
+
+![Earthquake-Techtonic-Street](Earthquake_Challenge/static/images/earthquake-techtonic-street.png)
+
+
+**Figure 2.** Streepmap View of Earthquakes with tectonic worlds around the world
+
+
+
+
+![Earthquake-Techtonic-Street](Earthquake_Challenge/static/images/all_maps-street.png)
+
+
+
+
+![Earthquake-Techtonic-Street](Earthquake_Challenge/static/images/all_maps-street-popup.png)
+
+
+
+
+![Earthquake-Techtonic-Street](Earthquake_Challenge/static/images/all_maps-satellite.png)
 
 
 ## Summary
