@@ -8,7 +8,7 @@ We have developed JavaScript code to to visually show the differences between th
   - JavaScript
   - JavaScript d3 library
   - VS Code
-  - Leaflet (https://leafletjs.com/reference.html)
+  - [Leaflet Mapping tools]([Earthquake_Challenge/static/images/earthquake-street.png](https://leafletjs.com/reference.html))
   - CSS
   - Git (and GitHub)
   - Web browser
@@ -16,7 +16,7 @@ We have developed JavaScript code to to visually show the differences between th
 
 ## Results
 
-Earthquakes, techtonic plates, and major earthquakes were added as layers into the base map, which has three different views (street, satellite, and dark views). Thews views can be selected as needed. A legend with colors is visible to show the magnitude of the earthquakes.  
+Earthquakes, techtonic plates, and major earthquakes were added as layers into the base map, which has three different views (street, satellite, and dark views). Thews views can be selected as needed. A legend with colors is visible to show the magnitude of the earthquakes. Figures 1-6 show dfferent views of earthquakes locations and magnitudes. 
 
 ![Earthquake-Street](Earthquake_Challenge/static/images/earthquake-street.png)
 
@@ -29,13 +29,10 @@ Earthquakes, techtonic plates, and major earthquakes were added as layers into t
 **Figure 2.** Streepmap View of Earthquakes around the world with tectonic plate markings
 
 
-
-
 ![Earthquake-Techtonic-Street](Earthquake_Challenge/static/images/all_maps-street.png)
 
 
 **Figure 3.** Streepmap View of Earthquakes around the world with major earth quakes highlighted as another layer.
-
 
 
 ![Earthquake-Techtonic-Street](Earthquake_Challenge/static/images/all_maps-street-popup.png)
@@ -45,7 +42,12 @@ Earthquakes, techtonic plates, and major earthquakes were added as layers into t
 
 ![Earthquake-Techtonic-Street](Earthquake_Challenge/static/images/all_maps-satellite.png)
 
-**Figure 5.** Satellite View of Earthquakes around the world with major a popup text highlighting the magnitude and the place.
+**Figure 5.** Satellite View of Earthquakes around the world with a popup text highlighting the magnitude and the place.
+
+
+![Earthquake-Techtonic-Street](Earthquake_Challenge/static/images/major-earthquakes-darkview.png)
+
+**Figure 6.** Dark View of major earthquakes around the world with a popup text highlighting the magnitude and the place.
 
 
 
