@@ -7,13 +7,19 @@ We have developed JavaScript code to to visually show the differences between th
 
   - JavaScript
   - JavaScript d3 library
+  - VS Code
   - Leaflet (https://leafletjs.com/reference.html)
   - CSS
-  - Git
+  - Git (and GitHub)
+  - Web browser
+  - Command-line interface
 
 ## Results
 
 Earthquakes, techtonic plates, and major earthquakes were added as layers into the base map, which has three different views (street, satellite, and dark views). Thews views can be selected as needed. A legend with colors is visible to show the magnitude of the earthquakes.  
+
+![Earthquake-Street](/static/images/earthquake-street.png)
+
 
 ## Summary
 
