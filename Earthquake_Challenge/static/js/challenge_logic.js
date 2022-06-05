@@ -124,6 +124,10 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 
 })
 
+//====================
+//TECTONIC DATA
+//====================
+
 // 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
 let tectonicData = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json";
 
@@ -133,9 +137,6 @@ let myStyle = {
   weight: 2
 }
 
-//====================
-//TECTONIC DATA
-//====================
 d3.json(tectonicData).then(function (data) {
   console.log(data);
 
