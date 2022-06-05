@@ -38,12 +38,12 @@ let baseMaps = {
 
 // 1. Add a 2nd layer group for the tectonic plate data.
 let allEarthquakes = new L.LayerGroup();
-let techtonicPlates = new L.LayerGroup();
+let tectonicPlates = new L.LayerGroup();
 let majorEarthquakes = new L.LayerGroup();
 
 // 2. Add a reference to the tectonic plates group to the overlays object.
 let overlays = {
-  "Techtonic Plates": techtonicPlates,
+  "Tectonic Plates": tectonicPlates,
   "Earthquakes": allEarthquakes,
   "Major Earthquakes": majorEarthquakes
 };
@@ -134,7 +134,7 @@ let myStyle = {
 }
 
 //====================
-//TECHTONIC DATA
+//TECTONIC DATA
 //====================
 d3.json(tectonicData).then(function (data) {
   console.log(data);
@@ -142,9 +142,9 @@ d3.json(tectonicData).then(function (data) {
   // Creating a GeoJSON layer with the retrieved data.
   L.geoJSON(data, {
     style: myStyle
-  }).addTo(techtonicPlates);
+  }).addTo(tectonicPlates);
 
-  techtonicPlates.addTo(map);
+  tectonicPlates.addTo(map);
 
 });
 //====================
