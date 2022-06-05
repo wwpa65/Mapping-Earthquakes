@@ -20,13 +20,13 @@ Earthquakes, techtonic plates, and major earthquakes were added as layers into t
 
 ![Earthquake-Street](Earthquake_Challenge/static/images/earthquake-street.png)
 
-**Figure 1.** Streepmap View of Earthquakes around the world
+**Figure 1.** Streepmap View of Earthquakes around the world. The size of the magnitude shows in color as well as size of the circle.
 
 
 ![Earthquake-Techtonic-Street](Earthquake_Challenge/static/images/earthquake-techtonic-street.png)
 
 
-**Figure 2.** Streepmap View of Earthquakes with tectonic worlds around the world
+**Figure 2.** Streepmap View of Earthquakes around the world with tectonic plate markings
 
 
 
@@ -34,14 +34,19 @@ Earthquakes, techtonic plates, and major earthquakes were added as layers into t
 ![Earthquake-Techtonic-Street](Earthquake_Challenge/static/images/all_maps-street.png)
 
 
+**Figure 3.** Streepmap View of Earthquakes around the world with major earth quakes highlighted as another layer.
+
 
 
 ![Earthquake-Techtonic-Street](Earthquake_Challenge/static/images/all_maps-street-popup.png)
 
-
+**Figure 4.** Streepmap View of Earthquakes around the world with major a popup text highlighting the magnitude and the place.
 
 
 ![Earthquake-Techtonic-Street](Earthquake_Challenge/static/images/all_maps-satellite.png)
+
+**Figure 5.** Satellite View of Earthquakes around the world with major a popup text highlighting the magnitude and the place.
+
 
 
 ## Summary
